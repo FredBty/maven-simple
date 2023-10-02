@@ -31,6 +31,15 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+
+      
+
+<plugin>
+
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+
+</plugin>
       
       <plugin>  <!-- Create sources.jar -->
             <groupId>org.apache.maven.plugins</groupId>
