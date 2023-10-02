@@ -1,4 +1,4 @@
-node {
+node ('Maître') {
   stage('SCM') {
     checkout scm
   }
